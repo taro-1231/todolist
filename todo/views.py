@@ -19,7 +19,6 @@ class TodoCreate(CreateView):
     fields = ('title','memo','priority','duedate')
     success_url = reverse_lazy('list')
 
-# この引数を継承することでこのクラスの発動でDelete機能を果たすようになる
 class TodoDelete(DeleteView):
     template_name = 'delete.html'
     model = TodoModel
