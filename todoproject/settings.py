@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-wf8k83d-ott^okp4eu@g!)qw(c@3$s$p$*vr_8tjv_#ixj0se3
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'todolist-d286.onrender.com',  # Render のデプロイURL
-    'localhost',
-    '127.0.0.1'
+    'todolist-d286.onrender.com'
 ]
 
 
